@@ -1,0 +1,26 @@
+
+  /* Mobile-specific styles */
+  @media (max-width: 768px) {
+    .nav-open {
+      max-height: 1000px;
+      opacity: 1;
+      transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    .nav-closed {
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+  }
+
+  /* Desktop styles (menu always visible) */
+  @media (min-width: 769px) {
+    .mobile-menu {
+      display: none;
+    }
+    .desktop-menu {
+      display: flex !important;
+    }
+  }
