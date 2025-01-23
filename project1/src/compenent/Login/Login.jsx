@@ -28,6 +28,7 @@ export default function Login() {
     setisclicked(false)
  setTimeout(() => {
   setislogin(null)
+   window.location.reload()
   navegate('/Home')
   setToken(res.data.token)
       localStorage.setItem('token', res.data.token)
