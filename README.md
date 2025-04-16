@@ -1,1 +1,26 @@
-# 🛒 E-Commerce App - A modern and responsive e-commerce frontend application built using React. It connects to a public API to display products, categories, and other related information in a clean and user-friendly interface. ## ✨ Features - Browse a list of products with details. - Filter products by categories. - Responsive design for all screen sizes. - Fetch data from external API using Axios. - Global state management using React Context API. - Data fetching handled efficiently with React Query. ## 🧰 Tech Stack - React - React Query - Axios - Tailwind CSS - Context API ## 📁 Project Structure /components: Reusable UI components (e.g. Navbar, ProductCard), /contexts: Global context providers (e.g. CategoriesContext), /pages: React page components, /public: Static assets, /styles: Global styles (if used) ## 🚀 Getting Started 1. Clone the repository: `git clone https://github.com/MahmoudAhmedEngCs/E-Commerce.git && cd E-Commerce` 2. Install dependencies: `npm install` 3. Run the development server: `npm start` 4. Visit [http://localhost:3000](http://localhost:3000) ## 📌 Notes - This is a frontend-only app. - All data is fetched from a public e-commerce API. - You can enhance it by adding auth, cart, and payment features. ## 📄 License This project is licensed under the MIT License.
+# 🛒 E-Commerce App
+
+A modern and responsive e-commerce frontend application built using **React**. It connects to a public API to display products, categories, and other related information in a clean and user-friendly interface.
+
+## ✨ Features
+- Browse a list of products with details.
+- Filter products by categories.
+- Responsive design for all screen sizes.
+- Fetch data from external API using **Axios**.
+- Global state management using **React Context API**.
+- Data fetching handled efficiently with **React Query**.
+
+## 🧰 Tech Stack
+- [React](https://reactjs.org/)
+- [React Query](https://tanstack.com/query/latest)
+- [Axios](https://axios-http.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Context API
+
+## 📁 Project Structure
+
+## 🚀 Getting Started
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MahmoudAhmedEngCs/E-Commerce.git
+   cd E-Commerce
